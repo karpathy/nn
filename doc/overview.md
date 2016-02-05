@@ -70,10 +70,10 @@ mlp:add( nn.Tanh() ) -- some hyperbolic tangent transfer function
 mlp:add( nn.Linear(25, 1) ) -- 1 output
 ```
 
-Of course, `Sequential` and `Concat` can contains other
+Of course, `Sequential` and `Concat` can contain other
 `Sequential` or `Concat`, allowing you to try the craziest neural
-networks you ever dreamt of! See the [[#nn.Modules|complete list of
-available modules]].
+networks you ever dreamt of! See the [complete list of available 
+modules](module.md#nn.Modules).
 
 <a name="nn.overview.training"/>
 ### Training a neural network ###
